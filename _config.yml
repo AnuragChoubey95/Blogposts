@@ -1,0 +1,5 @@
+title: "Concurrency Chronicles"
+description: "Detangling threads, concurrency, parallelism"
+theme: jekyll-theme-hacker  
+plugins:
+  - jekyll-feed
