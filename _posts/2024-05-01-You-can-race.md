@@ -3,9 +3,7 @@ layout: post
 title: "You Can Race, But You Can't Hide : On the efficient  detection of determinacy races in Cilk Programs"
 date: 2024-05-01
 ---
-# You Can Race, But You Can't Hide : On the efficient  detection of determinacy races in Cilk Programs
-
-#### Submitted by Anurag Choubey (ac2255@g.rit.edu)
+## Anurag Choubey
 ---
 
 ### Full bibliographic citation for research paper<br>

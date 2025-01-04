@@ -3,9 +3,7 @@ layout: post
 title: "Tag it, Bag it, but Prove it First : On the Correctness of the SP Bags Algorithm"
 date: 2024-05-10
 ---
-# Tag it, Bag it, but Prove it First : On the Correctness of the SP Bags Algorithm
-
-#### Submitted by Anurag Choubey (ac2255@g.rit.edu)
+## Anurag Choubey
 ---
 
 ### Full bibliographic citation for research paper<br>

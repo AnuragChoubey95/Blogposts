@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Herding Threads"
+title: "Herding Threads: Taming Data Races with Parametrized Algebraic Effects"
 date: 2023-12-03
 ---
-# Herding Threads: Taming Data Races with Parametrized Algebraic Effects
-
 Full bibliographic citation for research paper: Hashan Punchihewa and Nicolas Wu. 2021. Safe mutation with algebraic effects. In Proceedings of the 14th ACM SIGPLAN International Symposium on Haskell (Haskell 2021). Association for Computing Machinery, New York, NY, USA, 122–135. https://doi.org/10.1145/3471874.3472988
 
 ---

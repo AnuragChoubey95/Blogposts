@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Unleashing the Hoard"
+title: "Unleashing the Hoard: Presenting a Scalable Memory Allocator for Multithreaded Applications"
 date: 2024-03-24
 ---
 
-# Unleashing the Hoard: Presenting a Scalable Memory Allocator for Multithreaded Applications
-
-#### Submitted by Anurag Choubey (ac2255@g.rit.edu)
 ---
 
 ### Full bibliographic citation for research paper<br>
