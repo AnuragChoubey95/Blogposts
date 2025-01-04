@@ -19,7 +19,7 @@ In the previous blogpost titled ["You Can Race, But You Can't Hide"](paper_blogp
 Let us recap the SP bags algorithm using the figure below:
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images/fig_8.png" width="350" height="480">
+    <img src="/concurrencyChronicles/images/fig_8.png" width="350" height="480">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 1: SP Bags Algorithm</p>
@@ -41,7 +41,7 @@ To proceed forward in our correctness argument, we must familiarize ourselves wi
 Consider the Cilk procedure below. Our goal in this section is to transform a user written Cilk program into a data structure on which we can run the SP Bags algorithm.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images/fig_1.png" width="400" height="400">
+    <img src="/concurrencyChronicles/images/fig_1.png" width="400" height="400">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 2: Program</p>
@@ -55,7 +55,7 @@ Consider the Cilk procedure below. Our goal in this section is to transform a us
 ### Series Parallel Dags
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images/spDag.png" width="500" height="150">
+    <img src="/concurrencyChronicles/images/spDag.png" width="500" height="150">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 3: 3 types of series parallel dags</p>
@@ -95,7 +95,7 @@ e;return;
 - We can represent the procedure through a ["parallel control flow dag"](paper_blogpost.md#some-terms-and-concepts). 
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images/cfdag.png" width="1500" height="250">
+    <img src="/concurrencyChronicles/images/cfdag.png" width="1500" height="250">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 4: parallel control flow dags</p>
@@ -116,7 +116,7 @@ e;return;
 - A binary parse tree representing the program in this section is given below. It also thereby represents Fig. 4.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images/parseTree.png" width="700" height="450">
+    <img src="/concurrencyChronicles/images/parseTree.png" width="700" height="450">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 5: Binary Parse Tree of Fig.4</p>

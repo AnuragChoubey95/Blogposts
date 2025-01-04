@@ -29,7 +29,7 @@ Due to this limitation the authors come up with an SP bags algorithm that detect
 Let us introduce some constructs that we shall use later.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images//fig_1.png" width="400" height="400">
+    <img src="/concurrencyChronicles/images/fig_1.png" width="400" height="400">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 1: Program</p>
@@ -39,7 +39,7 @@ Let us introduce some constructs that we shall use later.
 Consider the code in Figure 1. The eyeballing of a potential race condition here is left to the reader. We introduce the concept of a spawn tree as seen in Figure 2. This spawn tree has as children of main() the two subprocedures that run in parallel.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images//fig_2.png" width="400" height="200">
+    <img src="/concurrencyChronicles/images/fig_2.png" width="400" height="200">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 2: Spawn Tree</p>
@@ -50,7 +50,7 @@ We also represent the code in Figure 1 as a directed acyclic graph as seen in Fi
 Such a construction of the programs allows us to represent the code as shown in Figure 3.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images//fig_3.png" width="450" height="300">
+    <img src="/concurrencyChronicles/images/fig_3.png" width="450" height="300">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 3: Parallel Control Flow DAG</p>
@@ -82,7 +82,7 @@ The SP bags algorithm uses the disjoint set data structure, which is aso employe
 - The S and P bags are represented as a disjoint set data structure.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images//fig_8.png" width="350" height="480">
+    <img src="/concurrencyChronicles/images/fig_8.png" width="350" height="480">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 5: SP Bags Algorithm</p>
@@ -112,7 +112,7 @@ As the algorithm executes, the contents of the S and P bags are updated each tim
 The Cilk language supports atomic accumulation of results that are returned from spawned procedures. For example, if the operators involved in accumulation are *= and *= or += and -= then the accumulations cannot be seen as races, since the operations in the pairs are commutative to each other.
 
 <div align="center" style="text-align: center;">
-    <img src="/Blogposts/images//fig_13.png" width="230" height="250">
+    <img src="/concurrencyChronicles/images/fig_13.png" width="230" height="250">
 </div>
 <div align="center" style="text-align: center;">
     <p>Figure 8: Atomic Accumulation</p>
