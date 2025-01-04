@@ -61,7 +61,7 @@ Now let us see how the bounding of the blowup is acheived
   
 ### 3.2 Example Demo
 
-<img src="../images/hoard_heap.png" width="480" height="550">
+<img src="/Blogposts/images/hoard_heap.png" width="480" height="550">
 
 * Take a look at the image above. The image reads from top left to top right. Assume two threads. Emptiness fraction is f = 1/4 and K is 0.
 * Initially, thread 1 has two superblocks (one 3/4 full and one empty) and thread 2 has a full superblock. 
