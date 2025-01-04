@@ -7,11 +7,6 @@ title: "Concurrency Chronicles"
 
 Welcome! Below you'll find my latest blog posts on concurrency, parallelism, and more.
 
-{% comment %}
-  If your chosen theme doesn't automatically provide styling for the post list,
-  you can wrap them in your own HTML. For example:
-{% endcomment %}
-
 <ul>
   {% for post in site.posts %}
     <li>
