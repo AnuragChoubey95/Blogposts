@@ -3,7 +3,7 @@ layout: post
 title: "Unleashing the Hoard: Presenting a Scalable Memory Allocator for Multithreaded Applications"
 date: 2024-03-24
 ---
-## Anurag Choubey
+### Anurag Choubey
 ---
 
 ### Full bibliographic citation for research paper<br>
